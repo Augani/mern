@@ -1,23 +1,11 @@
-const {
-    Login,
-    FindUser,
-    findByEmail,
-    FindAllUsers,
-    updateUserSites
-  } = require('../models/users')
+
   
-  const LoginUser = input => {
-    return Login(input)
-      .then(d => {
-        return d
-      })
-      .catch(e => {
-        return e
-      })
+  const Test = input => {
+    return "hello"
   }
   
   var root = {
-    
-  }
+    Test
+  } 
   
   module.exports = root

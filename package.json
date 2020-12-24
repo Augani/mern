@@ -4,7 +4,10 @@
   "description": "A fun app for building react components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon main.js",
+    "client": "cd client && npm start",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
   },
   "keywords": [
     "react",
@@ -14,12 +17,13 @@
   "author": "Augustus Otu",
   "license": "ISC",
   "dependencies": {
-    "concurrent": "^0.3.2",
+    "concurrently": "^5.3.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
     "graphql": "^15.4.0",
-    "mongoose": "^5.11.8"
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6"
   }
 }
