@@ -1,0 +1,21 @@
+{
+  "name": "buildero",
+  "version": "1.0.0",
+  "description": "A fun app for building react components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "js"
+  ],
+  "author": "Augustus Otu",
+  "license": "ISC",
+  "dependencies": {
+    "concurrent": "^0.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
