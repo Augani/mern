@@ -53,7 +53,8 @@ Describe your project
 :heavy_check_mark: Has Redux setup;\
 :heavy_check_mark: Has Apollo setup;\
 :heavy_check_mark: Has MongoDB setup already;\
-:heavy_check_mark: Easy file structure to follow;
+:heavy_check_mark: Easy file structure to follow;\
+:heavy_check_mark: Tailwindcss already setup;
 
 ## :rocket: Technologies ##
 
@@ -64,6 +65,7 @@ The following tools were used in this project:
 - [React](https://reactjs.org/)
 - [Javascript](https://www.javascript.com/)
 - [MongoDB](https://www.mongodb.com/)
+- [Tailwindcss](https://tailwindcss.com/)
 
 ## :white_check_mark: Requirements ##
 
